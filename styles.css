@@ -7,7 +7,7 @@
 	color:white;
 }
 #one{
-	 grid-column: span 4; /* takes 2 columns */
+	 grid-column: span 4; 
   grid-row: span 1;
 }
 #two{
@@ -15,15 +15,15 @@
   grid-row: span 4;
 }
 #four{
- grid-column: span 2; /* takes 2 columns */
+ grid-column: span 2; 
   grid-row: span 1;
 }
 #five{
- grid-column: span 2; /* takes 2 columns */
+ grid-column: span 2; 
   grid-row: span 1;
 }
 #ten{
- grid-column: span 3; /* takes 2 columns */
+ grid-column: span 3; 
  grid-row: span 1;
 }
 div{
