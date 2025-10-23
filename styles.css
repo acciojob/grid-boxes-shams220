@@ -1,36 +1,33 @@
 /*  your css code here. If applicable */
 #grid{
-  display: grid;
-  grid-template-rows: repeat(5, 124px);   
-  grid-template-columns: repeat(4, 1fr);
-  row-gap: 10px;                           
-  column-gap: 10px;
-  color: white;
-}
+	display: grid;
+ grid-template-rows: repeat(5, 124px);
 
-#grid > div{
-  background-color: green;
-  height: 100px;            
-  align-self: start;        
-}
+grid-template-columns: repeat(4, 242.5px);
 
-#one{ 
-	grid-column: span 4;
-	grid-row: span 1;
+  gap: 10px;
+	color:white;
 }
-#two{ 
-	grid-column: span 1; 
-	grid-row: span 4;
+#one{
+	 grid-column: span 4; /* takes 2 columns */
+  grid-row: span 1;
+}
+#two{
+	 grid-column: span 1; 
+  grid-row: span 4;
 }
 #four{
-	grid-column: span 2;
-	grid-row: span 1;
+ grid-column: span 2; /* takes 2 columns */
+  grid-row: span 1;
 }
 #five{
-	grid-column: span 2; 
-	grid-row: span 1;
+ grid-column: span 2; 
+  grid-row: span 1;
 }
 #ten{
-	grid-column: span 3; 
-	grid-row: span 1;
+ grid-column: span 3; 
+ grid-row: span 1;
+}
+div{
+	background-color:green;
 }
