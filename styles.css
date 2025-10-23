@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+#grid{
+	display: grid;
+  grid-template-rows: repeat(5, 100px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+	color:white;
+}
+#one{
+	 grid-column: span 4; /* takes 2 columns */
+  grid-row: span 1;
+}
+#two{
+	 grid-column: span 1; 
+  grid-row: span 4;
+}
+#four{
+ grid-column: span 2; /* takes 2 columns */
+  grid-row: span 1;
+}
+#five{
+ grid-column: span 2; /* takes 2 columns */
+  grid-row: span 1;
+}
+#ten{
+ grid-column: span 3; /* takes 2 columns */
+ grid-row: span 1;
+}
+div{
+	background-color:green;
+}
